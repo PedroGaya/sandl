@@ -1,0 +1,17 @@
+[package]
+name = "sandl"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+
+json = ["serde_json", "serde"]
+
+[dependencies]
+serde_json = { version = "1.0", optional = true }
+serde = { version = "1.0.228", features = ["derive"], optional = true }
+rand = "0.8"
+rayon = "1.10"
+thiserror = "2"
+sandl_derive = { path = "../sandl_derive" }

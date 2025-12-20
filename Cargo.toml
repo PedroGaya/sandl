@@ -1,0 +1,13 @@
+[workspace]
+members = ["sandl", "sandl_derive"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+description = "A framework for building parallel execution engines with dependency management, type-safe method dispatch, and event observation."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/sandl"
+readme = "README.md"  # Points to workspace README
+keywords = ["parallel", "execution", "dependency", "framework", "rayon"]
+categories = ["concurrency", "data-structures", "simulation"]
+

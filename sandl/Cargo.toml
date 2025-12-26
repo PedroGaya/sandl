@@ -2,6 +2,12 @@
 name = "sandl"
 version = "0.1.0"
 edition = "2024"
+description = "A framework for building parallel execution engines with dependency management, type-safe method dispatch, and event observation."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/PedroGaya/sandl"
+readme = "../README.md"
+keywords = ["parallel", "execution", "dependency", "framework", "rayon"]
+categories = ["concurrency", "data-structures", "simulation"]
 
 [features]
 default = []
